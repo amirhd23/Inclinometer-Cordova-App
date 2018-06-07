@@ -1,0 +1,42 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+#background{
+	background-image: url("../img/metal1.jpg");
+    background-size: cover;
+}
+
+.ui-content, #x_canvas, #y_canvas {
+	margin: 0;
+	padding: 0.1vw;
+}
+
+#y_canvas {
+	float: right;
+}
+
+
+#background_button {
+	display: inline-block;
+	outline: none;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#reset_botton {
+	display: inline-block;
+	position: absolute;
+}
+
+
+
+
+
+

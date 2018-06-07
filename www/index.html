@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Inclinometer</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/my_style.css" />
+	
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/circular_dial.js"></script>
+    <script src="js/gauge_data.js"></script>
+    <script src="js/my_script.js"></script>
+</head>
+
+<body>
+    
+	<div data-role="page" id="background">
+        
+		<div role="main" class="ui-content">
+			<!--fancy buttons-->
+			
+            <!--<input id="image_button" type="image" src="img/button_zero.png" onclick="setZero();"/>-->
+            <img id="background_button" src="img/button_backg.png" />
+            <img id="reset_botton" src="img/button.png" />
+			
+			<!--end of fancy buttons-->
+			
+			
+			
+			<canvas id="x_canvas"></canvas>
+            <canvas id="y_canvas"></canvas>
+			
+        </div>
+        <!-- /content -->
+
+    </div>
+    <!-- /page -->
+
+
+</body>
+
+</html>
